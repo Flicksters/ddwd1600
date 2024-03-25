@@ -1,0 +1,198 @@
+body { 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+head {
+    background-color: #c4e7ff;
+    padding: 2rem 2vw;
+    margin: 0;
+}
+
+header h1 {
+    background-color: #ddedf8;
+    margin: 0;
+    padding: 1rem 0 0 1rem;
+    color: #7090cc;
+}
+header p {
+    background-color: #ddedf8;
+    margin: 0;
+    padding: 0 0 .5rem 1rem;
+    color: #a0b6e0;
+    letter-spacing: .5px; 
+}
+nav {
+    background-color: #000000;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #f39cbf;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav li.active a {
+    background-color:#5a7abb;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #7090cc;
+}
+main h2 {
+    color: #7090cc;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #000000;
+    margin: 0.4rem 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+}
+main dl dt {
+    color: #7090cc;
+    font-weight: 700;
+
+}
+main dl dd {
+    color: #024873;
+    font-size: .9rem;
+    
+}
+main ul {
+    list-style-type:decimal;
+
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #eeeeee;
+    padding: 1rem;
+    width: 12.5rem;
+    border: 2px solid #c4429d;
+    border-radius: .3rem;
+}
+main a {
+    color: #000000;
+}
+main a:hover {
+    color: #465abe;
+}
+
+
+div.afflictionphoto {
+    width: 30%;
+    margin: 0;
+    padding: 2rem 0 0 0;
+    float: right;
+    flex-wrap: wrap;
+}
+div.afflictionphoto img {
+    width: 100%;
+    height: auto;
+}
+div.afflictionphoto figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+ div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #b64e11;
+ }
+
+
+ .myform fieldset {
+    border: 1px solid #646464;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+
+}
+
+.myform legend {
+    color: #929292;
+    font-size: .8rem;
+}
+
+.myform label {
+    margin: .5rem;
+}
+
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea, .myform [type=email] {
+    display: block;
+}
+
+.myform [type=text], .myform [type=tel], .myform [type=email], .myform select, .myform textarea {
+
+     border: solid 1px #9e9e9e;
+     padding: .3rem;
+     width: 250px;
+     border-radius: .3rem;
+     font-family: 'PT Sans', sans-serif;
+     font-weight: 300;
+}
+
+.myform textarea {
+    height: 6rem;
+}
+
+.myform :required {
+    background-color: rgba(156, 51, 53, 0.1);
+}
+
+.myform [type=submit] {
+    background-color: #dd72c6;
+    border:none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+
+}
+
+ 
+
+/* footer desgin*/
+footer {
+    background-color: #d8efff;
+    text-align: center;
+    color: #027483;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #024873;
+}
